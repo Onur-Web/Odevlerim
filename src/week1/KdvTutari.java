@@ -1,8 +1,8 @@
-package Week1;
+package week1;
 
 import java.util.Scanner;
 
-public class kdvTutari {
+public class KdvTutari {
     public static void main(String[] args) {
 
         double tutar , kdvTutar , kdvsizTutar ;

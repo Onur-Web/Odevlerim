@@ -1,8 +1,8 @@
-package Week1;
+package week1;
 
 import java.util.Scanner;
 
-public class ucgenAlani {
+public class UcgenAlani {
     public static void main(String[] args) {
 
         int a , b, c ;
