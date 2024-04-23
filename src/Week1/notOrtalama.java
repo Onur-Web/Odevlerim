@@ -1,6 +1,8 @@
+package Week1;
+
 import java.util.Scanner;
 
-public class NotOrtalamasi {
+public class notOrtalama {
     public static void main(String[] args) {
 
         int Matamatik,Fizik,Kimya,Biyoloji,Turkce,Tarih,Muzik ;
