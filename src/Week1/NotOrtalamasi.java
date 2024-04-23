@@ -28,7 +28,7 @@ public class NotOrtalamasi {
         System.out.print("Muzik Notunuz : ") ;
         Muzik = NotOrtalamasi.nextInt() ;
 
-        double ortalama =  (Matamatik+Fizik+Kimya+Biyoloji+Turkce+Tarih+Muzik) / 7 ;
+        double ortalama =  (Matamatik+Fizik+Kimya+Biyoloji+Turkce+Tarih+Muzik) / 7.0 ;
         String sonuc = (ortalama >= 60) ? "Geçtiniz" : "Kaldınız" ;
         System.out.println("7 Dersin Ortalama Puanı : " + ortalama);
         System.out.println("Sonuç : " + sonuc);
