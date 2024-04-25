@@ -17,7 +17,7 @@ public class BurcBulma {
         System.out.print("Doğduğunuz Gün : ");
         gun = input.nextInt();
 
-        if ((ay >= 1) && (ay <= 13)) {
+        if ((ay >= 1) && (ay <= 12)) {
             if (ay == 1) {
                 if (gun >= 1 && gun <= 31) {
                     if (gun < 22) {
