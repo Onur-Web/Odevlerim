@@ -9,7 +9,7 @@ public class TekSayilarinToplami {
         int sayi, total = 0;
 
         do {
-            System.out.print("Sayı Giriniz : ");
+            System.out.print("Sayı Giriniz(Çıkmak için Tek Sayı Yazın) : ");
             sayi = sawMe.nextInt();
             if (sayi % 4 == 0 ) {
                 total += sayi;
