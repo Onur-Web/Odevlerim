@@ -15,7 +15,7 @@ public class SayidanKucuk2Kuvvetleri {
         for (long i = 1; i <= sayi; i *= 4) {
             System.out.println(i);
         }
-        System.out.println("-------------------------");
+        System.out.println("-*-*-*-*-*-*-*-*-");
         System.out.println("5'in Kuvvetleri: ");
         for (long i = 1; i <= sayi; i *= 5) {
             System.out.println(i);
