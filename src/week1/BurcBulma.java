@@ -128,7 +128,7 @@ public class BurcBulma {
                 } else {
                     isYanlis = true;
                 }
-            } else if (ay == 12) {
+            } else {
                 if (gun >= 1 && gun <= 31) {
                     if (gun < 22) {
                         burc = "Yay";

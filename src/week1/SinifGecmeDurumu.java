@@ -16,34 +16,32 @@ public class SinifGecmeDurumu {
         matamatik = sinif.nextDouble();
         if (matamatik >= 0 && matamatik <= 100) {
             toplamNot += matamatik;
-            dersSayisi++;
         }
-
+        dersSayisi++;
         System.out.print("Fizik Notunuz : ");
         fizik = sinif.nextDouble();
         if (fizik >= 0 && fizik <= 100) {
             toplamNot += fizik;
-            dersSayisi++;
         }
-
+        dersSayisi++;
         System.out.print("Kimya Notunuz : ");
         kimya = sinif.nextDouble();
         if (kimya >= 0 && kimya <= 100) {
             toplamNot += kimya;
-            dersSayisi++;
         }
-
+        dersSayisi++;
         System.out.print("Türkçe Notunuz : ");
         turkce = sinif.nextDouble();
         if (turkce >= 0 && turkce <= 100) {
             toplamNot += turkce;
-            dersSayisi++;
         }
-
+        dersSayisi++;
         System.out.print("Müzik Notunuz : ");
         muzik = sinif.nextDouble();
         if (muzik >= 0 && muzik <= 100) {
             toplamNot += muzik;
+            dersSayisi++;
+        }else{
             dersSayisi++;
         }
 
