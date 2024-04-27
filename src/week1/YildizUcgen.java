@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class YildizUcgen {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Basamak Değerini Giriniz : ");
+        System.out.print("Orta Nokta Basamak Değerini Giriniz : ");
         int n = input.nextInt();
 
         // boslukSayisi = n - i;
