@@ -31,6 +31,7 @@ public class FlyTicketPrice {
 
         if (tip == 2) {
             toplam *= 0.8;
+            toplam *= 2;
         }
 
         System.out.println("Bilet Fiyatı : " + toplam + " TL");
