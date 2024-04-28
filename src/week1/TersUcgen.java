@@ -2,12 +2,10 @@ package week1;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
-
 public class TersUcgen {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Basamak Sayısı: ");
+        System.out.print("Basamak Sayısını Giriniz : ");
         int n = scanner.nextInt();
         // Girilen Değer "n"
 
