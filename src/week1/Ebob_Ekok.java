@@ -18,8 +18,6 @@ public class Ebob_Ekok {
             minimum = n2;
         }
 
-        //EKOK = (n1*n2) / EBOB
-
         int ebob = 1;
         int i = 1;
         while (i <= minimum) {
