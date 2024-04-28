@@ -14,15 +14,16 @@ public class BuyukKucukSenaryo {
             System.out.println("Pozitif Bir Sayı Giriniz!!!");
             return;
         }
-        System.out.print("1. Sayıyı Giriniz : ");
-        int ilknumara = input.nextInt();
-        int max = ilknumara;
-        int min = ilknumara;
 
-        for (int i = 2; i <= n; i++) {
-            System.out.print(i + ". sayıyı giriniz : ");
+        int max = 0, min = 0;
+
+        for (int i = 0; i < n; i++) {
+            System.out.print((i + 1) + ". sayıyı giriniz : ");
             int numara = input.nextInt();
-
+            if (i == 0) {
+                max = numara;
+                min = numara;
+            }
             if (numara > max) {
                 max = numara;
             }
