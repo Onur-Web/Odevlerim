@@ -11,10 +11,7 @@ public class PalindromSayi {
             girilenSayiSonBasamak = (girilenSayiSonBasamak * 10) + girilenSayininKalani;
             girilenSayiEsDegeri /= 10;
         }
-        if (girilenSayi == girilenSayiSonBasamak)
-            return true;
-        else
-            return false;
+        return girilenSayi == girilenSayiSonBasamak;
     }
 
     public static void main(String[] args) {
