@@ -10,8 +10,9 @@ public class DiziElemanFrekans {
         int[] array = {10, 20, 20, 10, 10, 20, 5, 20};
         System.out.println("Dizi : " + Arrays.toString(array));
 
-//daha görmedik ama bir arkadaşım aracılığı ile öğrendim ve çok hoşuma gitti oyüzden kullanmak istedim
         Map<Integer, Integer> myMap = new HashMap<>();
+        //daha görmedik ama bir arkadaşım aracılığı ile öğrendim ve çok hoşuma gitti oyüzden kullanmak istedim
+
         // for loop
         for (int i = 0; i < array.length; i++) {
             // arrayden elemanı oku
@@ -33,7 +34,9 @@ public class DiziElemanFrekans {
         }
         // alternatif ve aslında doğru kullanımı
         // for-each loop
+
        /*
+
        for (int number : array) {
             if (myMap.get(number) == null) {
                 myMap.put(number, 1); // 10 --> 3

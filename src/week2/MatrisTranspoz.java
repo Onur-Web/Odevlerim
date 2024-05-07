@@ -22,6 +22,7 @@ public class MatrisTranspoz {
                 transposeArray[column][row] = originalArray[row][column];
             }
         }
+
         // Transpoz yazdırma
         System.out.println("Transpoze:");
         printMatrix(transposeArray);
