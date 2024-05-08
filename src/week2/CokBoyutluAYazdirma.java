@@ -16,7 +16,7 @@ public class CokBoyutluAYazdirma {
                 } else if (k == 0 || k == 3) {
                     letter[i][k] = "  * ";
                 }else {
-                    letter[i][k] = "    ";
+                    letter[i][k] = "     ";
                 }
             }
         }
