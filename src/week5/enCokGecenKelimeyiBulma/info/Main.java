@@ -8,7 +8,6 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.print("Metni girin: ");
         String metin = input.nextLine();
-
         String[] kelimeler = metin.split(" ");//Boşluklara Göre Kelimeleri dizilere ekle
 
         HashMap<String, Integer> kelimeSayilari = new HashMap<>();
