@@ -17,7 +17,6 @@ public class Main {
                 return Integer.compare(book1.getPageCount(), book2.getPageCount());
             }
         });
-
         bookSetByName.add(new Book("The Last Wish",280,"Andrzej Sapkowski","1993"));
         bookSetByName.add(new Book("Sword of Destiny",384,"Andrzej Sapkowski","1992"));
         bookSetByName.add(new Book("Blood of Elves",324,"Andrzej Sapkowski","1994"));

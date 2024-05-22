@@ -30,31 +30,24 @@ public class Book implements Comparable<Book> {
     public String getBookName() {
         return bookName;
     }
-
     public void setBookName(String bookName) {
         this.bookName = bookName;
     }
-
     public int getPageCount() {
         return pageCount;
     }
-
     public void setPageCount(int pageCount) {
         this.pageCount = pageCount;
     }
-
     public String getAuthorName() {
         return authorName;
     }
-
     public void setAuthorName(String authorName) {
         this.authorName = authorName;
     }
-
     public String getPublicationDate() {
         return publicationDate;
     }
-
     public void setPublicationDate(String publicationDate) {
         this.publicationDate = publicationDate;
     }
