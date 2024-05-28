@@ -1,4 +1,4 @@
-package week5.KitapSiralayici;
+package week5.kitapSiralayici;
 
 public class Book implements Comparable<Book> {
 

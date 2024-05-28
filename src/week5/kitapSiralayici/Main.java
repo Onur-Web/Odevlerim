@@ -1,4 +1,4 @@
-package week5.KitapSiralayici;
+package week5.kitapSiralayici;
 
 import java.util.Comparator;
 import java.util.TreeSet;
